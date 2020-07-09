@@ -1,5 +1,12 @@
 # Captcha_Breaking
 
+## About
+```
+This project aims at extracting text from the captcha using pytesseract and opencv.
+It is completed under the guidance and mentorship of Artificial Intelligence and Electronic Society(ArIES) of IIT Roorkee.
+Mentor :  Gopi Kishan (https://github.com/GopiKishan14)
+```
+
 ## Dataset
 ```
 - The dataset has been taken from kaggle website. Below is the link
@@ -10,9 +17,13 @@
 
 ## Code
 
+##### Environment
+
 ```
 The Following code is designed on Anaconda Spyder. You can also implement it on Google Colab. For any query do mail me.
-
+```
+### Code
+```
 **Code Description**
 
 - extracting all the captcha images from the directory.
