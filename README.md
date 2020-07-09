@@ -1,5 +1,13 @@
 # Captcha_Breaking
 
+## Dataset
+```
+- The dataset has been taken from kaggle website. Below is the link
+  https://www.kaggle.com/fournierp/captcha-version-2-images
+- I have only able to upload 6 captcha images because github doesn't allow to import such big memory.
+
+```
+
 ## Code
 
 ```
