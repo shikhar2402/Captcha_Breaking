@@ -4,7 +4,7 @@
 ```
 This project aims at extracting text from the captcha using pytesseract and opencv.
 It is completed under the guidance and mentorship of Artificial Intelligence and Electronic Society(ArIES) of IIT Roorkee.
-Mentor :  Gopi Kishan (https://github.com/GopiKishan14)
+Mentor :  @GopiKishan14 (https://github.com/GopiKishan14)
 ```
 
 ## Dataset
@@ -32,12 +32,25 @@ The Following code is designed on Anaconda Spyder. You can also implement it on 
 - use pytesseract library to extract the text in the image
 - returns the string object
 ```
+<p align="left">
+  <h3>Original Image</h3>
+  <img width="100" height="100" src="https://github.com/shikhar2402/Captcha_Breaking/blob/master/output_samples/avoid-captcha.jpg">
+</p>
+<p align="left">
+  <h3>Denoised Image</h3>
+  <img width="100" height="100" src="https://github.com/shikhar2402/Captcha_Breaking/blob/master/output_samples/denoised.jpg">
+</p>
+
 
 ## Result
 
 - the console will give the text embedded in the image.
 - the title of the image is also the text in the image
 
+<p align="left">
+  <h3>Image with Captcha</h3>
+  <img width="200" height="180" src="https://github.com/shikhar2402/Captcha_Breaking/blob/master/output_samples/output.png">
+</p>
 
 ### Setup
 
