@@ -34,7 +34,7 @@ The Following code is designed on Anaconda Spyder. You can also implement it on 
 
 ---
 
-## Example (Optional)
+### Snippet
 
 ```python
 // code away!
