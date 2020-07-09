@@ -22,7 +22,6 @@ Mentor :  @GopiKishan14 (https://github.com/GopiKishan14)
 ```
 The Following code is designed on Anaconda Spyder. You can also implement it on Google Colab. For any query do mail me.
 ```
-### Code
 ```
 **Code Description**
 
@@ -32,6 +31,31 @@ The Following code is designed on Anaconda Spyder. You can also implement it on 
 - use pytesseract library to extract the text in the image
 - returns the string object
 ```
+
+---
+
+## Example (Optional)
+
+```python
+// code away!
+
+def get_string(img):
+    # Convert to gray
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    # Apply dilation and erosion to remove some noise
+    #noise removal
+    kernel = np.ones((1, 1), np.uint8)
+    img = cv2.dilate(img, kernel, iterations=1)
+    img = cv2.erode(img, kernel, iterations=1)
+    
+    #used pytesseract
+    result = pytesseract.image_to_string(img)
+
+```
+
+---
+
 <p align="left">
   <h3>Original Image</h3>
   <img width="100" height="100" src="https://github.com/shikhar2402/Captcha_Breaking/blob/master/output_samples/avoid-captcha.jpg">
@@ -48,7 +72,7 @@ The Following code is designed on Anaconda Spyder. You can also implement it on 
 - the title of the image is also the text in the image
 
 <p align="left">
-  <h3>Image with Captcha</h3>
+  <h3>Output Image with Captcha</h3>
   <img width="200" height="180" src="https://github.com/shikhar2402/Captcha_Breaking/blob/master/output_samples/output.png">
 </p>
 
